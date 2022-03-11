@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif, 'Roboto', sans-serif;
+
+}
+h1{
+   color: rgb(219, 219, 219);
+   font-size: 1.3em;
+   background-color: rgb(94, 17, 17);
+   height: 40px;
+   border-width: 30px;
+   text-align: center;
+   align-items: center;
+   top: 100px;
+   width: auto;
+ 
+}
+main{
+    position: absolute;
+
+}
+img{
+    z-index: -1;
+    
+}
+.segundo{
+    z-index: 2;
+}
