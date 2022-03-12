@@ -19,16 +19,35 @@ h1{
    
  
 }
-main{
+.grib{
     background-color:salmon;
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    
-
-
-
-
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px;
+    grid-template-rows: minmax(200px, auto);
 }
+.grib .grib-header{
+    grid-column: 1/3;
+}
+
+.grib .grib-imagen{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;  
+}
+.grib .grib-formulario{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 10px; 
+}
+
+.grib .grib-footer{
+    grid-column: 1/3;
+    grid-row:3/4;
+}
+
+
 .primero{
     width: auto;
 }
