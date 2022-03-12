@@ -16,16 +16,54 @@ h1{
    align-items: center;
    top: 100px;
    width: auto;
+   
  
 }
 main{
-    position: absolute;
+    background-color:salmon;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+
+
 
 }
-img{
-    z-index: -1;
-    
+.primero{
+    width: auto;
+}
+
+.form{
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    width: auto ;
+
+
 }
 .segundo{
-    z-index: 2;
+    text-align: center;
+
+
+    margin-top: 30%;
+    /*border-color: aqua;*/
+    /*border-style: solid;*/
+    width: ;
+    
+    
+
+}
+footer{
+    color: rgb(219, 219, 219);
+    font-size: 1.3em;
+    background-color: rgb(94, 17, 17);
+    height: 40px;
+    border-width: 30px;
+    text-align:center;
+    align-items: center;
+    top: 100px;
+    width: auto;
+
 }
