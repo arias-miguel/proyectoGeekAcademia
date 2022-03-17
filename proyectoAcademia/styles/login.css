@@ -1,88 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif, 'Roboto', sans-serif;
+    font-family: 'Ramaraja', serif;
 
 }
 h1{
    color: rgb(219, 219, 219);
-   font-size: 1.3em;
+   font-size: 1.5em;
+   font-weight: 1200;
    background-color: rgb(94, 17, 17);
-   height: 40px;
-   border-width: 30px;
-   text-align: center;
-   align-items: center;
-   top: 100px;
-   width: auto;
-   
- 
+   padding: 2%;
 }
-.grib{
+body{
     background-color:salmon;
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr); 
-    gap: 10px;
-    grid-template-rows: minmax(200px, auto);
-}
-.grib .grib-header{
-    grid-column: 1/3;
-}
-
-.grib .grib-imagen{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding: 10px;  
-}
-.grib .grib-formulario{
-    grid-column: 2/3;
-    grid-row: 1/3;
-    padding: 10px; 
-}
-
-.grib .grib-footer{
-    grid-column: 1/3;
-    grid-row:3/4;
-}
-
-
-.primero{
-    width: auto;
-}
-
-.form{
-    align-items: center;
     text-align: center;
-    background-color: grey;
-    border-color: black;
-    border-style: solid;
-    width: auto ;
+    color: black;
+   
+}
+.divC{
+    position: absolute;
+}
+.imgHamburger{
+    z-index: 2;
+    top:10%;
+    left: 2%;
+    height: 50%
 
-
+}
+img{
+    width: 80%;
+    opacity: 0.4;
+}
+h2{
+    font-size: 2em;
 }
 .segundo{
+    position: absolute;
+    z-index: 5;
+    left: 20%;
+    top: 12%;
+    width: 70%;
+}
+form{
+    width: 100%;
     text-align: center;
-
-
-    margin-top: 30%;
-    /*border-color: aqua;*/
-    /*border-style: solid;*/
-
-    
-    
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.5em;
 
 }
-footer{
+.texto{
+    color: black;
+}
+.footer{
+    position: absolute;
     color: rgb(219, 219, 219);
+    width: 100%;
     font-size: 1.3em;
     background-color: rgb(94, 17, 17);
     height: 40px;
     border-width: 30px;
     text-align:center;
     align-items: center;
-    top: 100px;
-    width: auto;
-
+    bottom: 0%;
 }
+#bt{
+    background-color: rgb(94, 17, 17);
+    width: 44%;
+    font-size: 1em;
+    color: black;
+    font-weight: bolder;
+}
+a{
+    font-size: 0.7em;
+}
+@media (min-width: 700px){
+    img{
+        opacity: 1;
+    }
+    .imgHamburger{
+        right: 0%;
+    }
+    body{
+     text-align: none;
+    }
+}
+    

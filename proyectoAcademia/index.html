@@ -9,43 +9,34 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="grib">
-        <header class="grib-header">
-            <h1>FoodGeek</h1>
-        </header>
-        <main>
-            <div class="grib-imagen">
-                <div class="Primero">
-                    <img src="./img/hamburger.jpeg" alt="hamburguesa">
-                </div>    
-            </div>
-         </main>
-         <main>
-         <div class="grib-formulario">
-            <div class="segundo">
-                <h2>Inicio de Sesion</h2>
-                <form class="form"> 
-                    <div class="form-login">
-                       
-                    <label for="text" class="">Usuario</label>
+    <header>
+        <h1>FoodGeek</h1>
+    </header>
+    <main>
+        <div class="divC">
+        <div class="imgHamburger">
+            <img src="./img/hamburger.jpeg" alt="hamburguesa"> 
+        </div>
+        <div class="segundo">
+            <h2>Inicio de Sesion</h2>
+            <form class="form">  
+                    <label for="text" class="texto">Usuario</label><br>
                     <input type="text" class="" id="usuario" placeholder="Ingrese su Usuario">
                     <br><br>
-                    <label for="text" class="">Contraseña</label>
+                    <label for="text" class="texto">Contraseña</label><br>
                     <input type="password" class="password" id="password" placeholder="Ingrese su Contraseña">
                     <br><br>
+                    <button type="button" id="bt" >Ingresar</button><br>
                     <a type="none" href="">Olvidaste tu contraseña</a>
-                    <button type="button" id="bt" >Ingresar</button>
-                </form>
-                </div>        
+            </form>          
+        </div>
         </div>
     </main>
-    <div class="grib-footer">
-        <footer>
-            <p>Barriga llena corazon contento team Juli</p>
-        </footer>
-    </div>
-    </div>
-
+    <footer>
+        <div class="footer">
+            <p>Barriga llena corazon contento team</p>
+        </div>    
+    </footer>
     <script src="./scripts/login.js"></script>
 </body>
 </html>
