@@ -1,0 +1,92 @@
+
+body{
+    background-color:salmon;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+header{
+    background-color: rgb(94, 17, 17);
+    display: flex;
+    justify-content: space-around;
+}
+.big-box{
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border-radius: 8%;
+    display:flex;
+    flex-direction: column;
+}
+.links{
+    margin-right: 20px;
+    position:absolute;
+    border-style: solid;
+    border-color: blue;
+    width: 450px;
+    height: 10%;
+    border-radius: 8%;
+    text-align: center;
+}
+
+.links li{
+    display: inline-block;
+    text-align: center;
+}
+.links li a{
+    display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    border-left: 7px;
+    border-color: black;
+}
+    
+
+footer{
+    position: absolute;
+    color: rgb(219, 219, 219);
+    width: 100%;
+    font-size: 1.3em;
+    height: 50px;
+    border-width: 30px;
+    text-align:center;
+    align-items: center;
+    bottom: 0%;
+   background-color: rgb(94, 17, 17);
+}
+
+.contenedor-menu{
+    margin: auto;
+    width:500px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    object-fit: cover;
+    object-fit: cover;
+
+}
+
+.contenedor-menu .card{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;/* desvordamiento*/
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s; /* suaviza elmovimiento*/
+    background-color: grey;
+
+
+}
+.contenedor-menu img{
+    margin: 5px;
+    width: 80%;
+    height: 70%;
+}
