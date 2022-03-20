@@ -1,55 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500;1,600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 
+}
 body{
-    background-color:salmon;
+    background-color:rgb(255, 221, 217);
     text-align: center;
     color: black;
     margin: 0;
     padding: 0;
-    gap: 10px;
+    height: 5000px;
 }
 header{
+    width: 100%;
+    height: 13vh;
+    color:white;
     background-color: rgb(94, 17, 17);
-    display: flex;
-    justify-content: space-around;
-}
-.big-box{
-    margin: auto;
-    padding: 10px;
-    background-color: white;
-    display: flex;
-    width: 500px;
-    height: 500px;
-    border-radius: 8%;
-    display:flex;
-    flex-direction: column;
-}
-.links{
-    margin-right: 20px;
-    position:absolute;
-    border-style: solid;
-    border-color: blue;
-    width: 450px;
-    height: 10%;
-    border-radius: 8%;
-    text-align: center;
-}
-
-.links li{
-    display: inline-block;
-    text-align: center;
-}
-.links li a{
-    display: inline-block;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 20px;
-    border-left: 7px;
-    border-color: black;
-}
+    background-position: center;
+    background-size:cover;
     
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+h1{
+    width: 140px;
+    margin: left 20px;
+}
+.bar-btn{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top:100px;
+    background: rgb(94, 17, 17);
+    text-align: center;
+    transition: all .5s;
+}
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5;
+}
+.nav-menu li a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: black;
+    transition: .3s;
+    font-size: 1rem;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+#check:checked ~ .nav-menu li{
+    display: block;
+}
 
 footer{
-    position: absolute;
     color: rgb(219, 219, 219);
     width: 100%;
     font-size: 1.3em;
@@ -61,32 +90,76 @@ footer{
    background-color: rgb(94, 17, 17);
 }
 
-.contenedor-menu{
-    margin: auto;
-    width:500px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    object-fit: cover;
-    object-fit: cover;
 
+@media(min-width: 834px) {
+    h1{
+        margin-left: 50px;
+    }
+    nav{
+        height: 100px;
+    }
+    .bar-btn{
+        display: none;
+
+    }
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+    .nav-menu li a{
+        font-size: 12px;;
+    }
 }
-
-.contenedor-menu .card{
-    width: 100px;
-    height: 100px;
+img{
+    max-width: 100%;
+}
+article.card{
+    max-width: 300px;
+    background: rgb(230, 230, 255);
     border-radius: 8px;
-    overflow: hidden;/* desvordamiento*/
-    margin: 10px;
-    text-align: center;
-    transition: all 0.25s; /* suaviza elmovimiento*/
-    background-color: grey;
-
-
+    margin: 1rem;
+    box-shadow:0 0 12px rgb(0, 0, 0);
 }
-.contenedor-menu img{
-    margin: 5px;
-    width: 80%;
-    height: 70%;
+.header-card img{
+    border-radius: 8px 8px 0 0;
+    max-height: 200px;
+    height: 200px;
+    width: 100%;
+}
+.categoria-card {
+    margin-top: 1rem;
+}
+.categoria-card span{
+    background-color: aqua;
+    color: brown;
+    padding: .2rem .5rem;
+    border-radius: 4px;
+}
+.card .footer-card{
+    padding: 0 1rem;
+}
+.card-ward{
+    display: flex;
+    flex-flow: wrap;
+}
+button{
+    width: 40%;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 10%;
+    background-color: rgb(2, 172, 2);
+    box-shadow:0 0 12px rgb(0, 0, 0);
 }
