@@ -1,6 +1,5 @@
 export const showCards = (data,container)=>{
 
-
     data.forEach( card => {
         let {id, nombre,precio, imagen, descripcion } =card;
         container.innerHTML += `
@@ -18,7 +17,7 @@ export const showCards = (data,container)=>{
                 <h3>Precio</h3>
                 <h3>$ ${precio}</h3>
               </div>
-              <button id="${id}" class="btn" type="submit">comprar
+              <button id="${id}" class="btn carrito" type="submit">Comprar
               </button>
           </div>
         </article>
