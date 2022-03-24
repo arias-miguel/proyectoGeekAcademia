@@ -6,8 +6,8 @@ export const compra = (data,contResultado,container)=>{
   });
   contResultado.innerHTML =`<div class="contResultado>  
   <p class="texto">Su Compra tiene con costo total de</p>
-  <h3 id="resultado class="texto"> ${total}</h3>
-  <button id="btnResultado"class="carrito" type="submit">Comprar</button></div> `
+  <h3 id="resultado class="texto">${total}</h3>
+  <button id="btnResultado" class="carrito" type="submit">Comprar</button></div> `
           
   data.forEach( card => {
     let {id, nombre,precio, imagen, descripcion } =card;

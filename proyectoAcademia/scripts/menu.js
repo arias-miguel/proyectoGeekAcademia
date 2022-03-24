@@ -57,33 +57,6 @@ document.addEventListener('click', (e) => {
     }
 })
 
-// document.addEventListener('click', (e) => {
-//     if(e.target.classList.contains('carrito')){
-//         let id = e.target.id;
-//         let productos = JSON.parse(localStorage.getItem('producto'))
-        
-//         if (productosCompra.length === 0) {
-//             productos.units = 1
-//              productosCompra.push(productos);
-//              alert("Producto agregado de forma exitosa");
-//          } else {
-             
-//              let prueba = productosCompra.find(item => item.id == id);
- 
-//              if(prueba === undefined){
-//                  productos.units = 1
-//                  productosCompra.push(productos);
-//                  alert("Producto agregado de forma exitosa");
-//              } else {
-//                  alert("el producto ya se encuentra en seccion compra")
-//              }
-//          }
- 
-//          localStorage.setItem('productosCompra', JSON.stringify('productos'))
-        
-//     }
-// })
-
 
 btnCompra.addEventListener('click', async()=>{
     contenCombos.innerHTML="";
@@ -91,9 +64,8 @@ btnCompra.addEventListener('click', async()=>{
     let data = await response.json();
     let seleccionados = [];
     let dataCompra = new Set(JSON.parse(localStorage.getItem('productos')));
-    console.log(dataCompra)
     let result = [...dataCompra];
-    console.log(result)
+
     result.forEach(element => {
         let filtro = data.filter(item => item.id == element );
         console.log(filtro)
@@ -101,9 +73,19 @@ btnCompra.addEventListener('click', async()=>{
         console.log(seleccionados)
     }); 
     compra(seleccionados, conteResul, contenCombos)
+    
+    
+    let btnResul= document.getElementById('btnResultado');
+    btnResul.addEventListener('click',()=>{
+        if(confirm("Esta seguro de su Compra")){
+            window.location.href="menu.html"
+            
+        }
+        storage.clear();
+        
+        
 })
-
-
+})
 
 btnCerrar.addEventListener('click', ()=>{
     window.location.href="../index.html"
