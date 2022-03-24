@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "combos":[
         {
             "id":1,
@@ -215,4 +216,252 @@
             "id": 8
         }
       ]
+=======
+  "food": [
+    {
+      "id": 1,
+      "nombre": "Combo Familiar",
+      "precio": 25000,
+      "imagen": "https://www.elcorral.com/img/our-cart/el-corral-hamburguesas-combo-de-combos-para-tres..jpeg",
+      "descripcion": "Combo 3 hamburguesas con gaseosa 1,5ml y 200g de papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 2,
+      "nombre": "Combo Amigos",
+      "precio": 20000,
+      "imagen": "https://pedilo.nyc3.digitaloceanspaces.com/2020/12/burgerhouse_combo_1.jpg",
+      "descripcion": "Combo 1 hamburguesa de pollo apanado mas 1 perro con salchicha americana mas papas y gaseosa",
+      "categoria": "combos"
+    },
+    {
+      "id": 3,
+      "nombre": "Combo Amigas",
+      "precio": 15000,
+      "imagen": "https://www.laspaginasamarillasencolombia.com/wp-content/uploads/2021/10/arepas-express-combo-3.jpg",
+      "descripcion": "Combo 3 perros calientes con gaseosa 1,5ml y 200g de papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 4,
+      "nombre": "Combo Novios",
+      "precio": 13000,
+      "imagen": "https://autocinecucuta.com/wp-content/uploads/2020/08/COMBO-2.jpg",
+      "descripcion": "Combo 2 perros con salchicha americana gaseosa personal y 100g de papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 5,
+      "nombre": "Combo Especiales",
+      "precio": 25000,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjg8ymbKheMtJjJHSBQ1tw-X4nrS_2wd-EpQ&usqp=CAU",
+      "descripcion": "Combo 3 perros queso parmesano, salchicha americana tosineta, gaseosa y papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 6,
+      "nombre": "Combo Extraordinario",
+      "precio": 40000,
+      "imagen": "https://mxcity.mx/wp-content/uploads/2017/06/19239616_391569231243866_1209276808_n-1.jpg",
+      "descripcion": "Combo 5 perros con 2 gaseosas 1,5ml y 600g de papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 7,
+      "nombre": "Combo Apanado",
+      "precio": 24000,
+      "imagen": "https://presto.com.co/_/images/uploads/844_410_img_productos_52.png",
+      "descripcion": "Combo 3 hamburguesas de pollo apanado, hueco, tomate, lechuga con gaseosa y papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 8,
+      "nombre": "Combo Doble",
+      "precio": 22000,
+      "imagen": "https://cecinasllanquihue.cl/blog/wp-content/uploads/2019/04/Todos.jpg",
+      "descripcion": "Combo 2 hamburguesas con doble carne tosineta con gaseosa 1,5ml y 200g de papas",
+      "categoria": "combos"
+    },
+    {
+      "id": 9,
+      "nombre": "Perro Sencillo",
+      "precio": 8000,
+      "imagen": "https://perrosdealex.com/wp-content/uploads/2019/05/perro-sencillo.jpg",
+      "descripcion": "Perro con salchicha sencilla queso y gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 10,
+      "nombre": "Perro Doble",
+      "precio": 12000,
+      "imagen": "https://mariobross.com.co/wp-content/uploads/2018/10/Mario-Bross-Perro-Italiano.jpg",
+      "descripcion": "Perro doble porsion de tosineta salchicha americana con gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 11,
+      "nombre": "Perro Chori",
+      "precio": 12000,
+      "imagen": "https://juegoscocinarpasteleria.org/wp-content/uploads/2020/04/Perritos-calientes-rellenos-de-queso-envuelto-en-tocino-con-cebollas.jpg",
+      "descripcion": "Perro con chorizo papas y gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 12,
+      "nombre": "Perro Gourmet",
+      "precio": 15000,
+      "imagen": "https://media.istockphoto.com/photos/two-juicy-hot-dogs-closeup-on-dish-over-stone-table-picture-id1155043305?k=20&m=1155043305&s=612x612&w=0&h=U1Nxq75ger0D8yRgTF4uDKKpQmRiwqzODK5lgOkF9Eo=",
+      "descripcion": "Perro con salchicha americana mais tomate salsa de la casa y gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 13,
+      "nombre": "Perro Especial",
+      "precio": 14000,
+      "imagen": "https://media.elestimulo.com/2021/04/OscarMayer-haceladiferencia-diamundialdelhotdog-perroscalientes-panchos-perritos-completo-food-1100x572.jpg",
+      "descripcion": "Perro con jamon y queso parmesano papas y gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 14,
+      "nombre": "Perro",
+      "precio": 20000,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJeARXHjW0isx_Ar1K5cyDrxj8snqYW0LYKSwDaR2HDz3w-b2LFt7tVbwgpn56jq9Ab4&usqp=CAU",
+      "descripcion": "Perro con peperoni,tosineta,salchicha americana",
+      "categoria": "perros"
+    },
+    {
+      "id": 15,
+      "nombre": "Perro Relleno",
+      "precio": 18000,
+      "imagen": "https://www.burguerhousecastilla.com/wp-content/uploads/2020/05/Burguer-House-Hot-Dog_Perro-Super-Articulado_550x440.jpg",
+      "descripcion": "Perro con sanchicha,chorizo,mais,tosineta,huevos papas y gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 16,
+      "nombre": "Perro Metro",
+      "precio": 38000,
+      "imagen": "http://blog.repan.co/wp-content/uploads/2018/02/como-preparar-un-perro-americano-frankfurt.png",
+      "descripcion": "Perro de 40cmts de largo 4 salchichas americanas papas y gaseosa",
+      "categoria": "perros"
+    },
+    {
+      "id": 17,
+      "nombre": "Hamburger sencilla",
+      "precio": 9000,
+      "imagen": "https://t1.rg.ltmcdn.com/es/posts/0/8/9/pan_para_hamburguesa_28980_600_square.jpg",
+      "descripcion": "Hamburguesa sencilla de res papas y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 18,
+      "nombre": "Hamburger Nuestra",
+      "precio": 14500,
+      "imagen": "https://www.recetasparavivirmejor.com/wp-content/uploads/2021/05/recetasparavivirmejor_hamburguesa_de_pollo_crispy_carnes_2021.jpg",
+      "descripcion": "Hamburguesa con platano carne de res huevo papas y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 19,
+      "nombre": "Hamburger Apanada",
+      "precio": 15000,
+      "imagen": "https://weloversize.com/wp-content/uploads/2019/05/shutterstock_1163579620.jpg",
+      "descripcion": "Hamburguesa apanada con tomate sebolla papas y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 20,
+      "nombre": "Hamburger Mexicana",
+      "precio": 15000,
+      "imagen": "https://www.tqma.com.ec/images/com_yoorecipe/banner_superior/14405_1.jpg",
+      "descripcion": "-Hamburguesa con tacos guacamole tosineta papas y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 21,
+      "nombre": "Hamburger Doble",
+      "precio": 16000,
+      "imagen": "https://www.eltiempo.com/files/image_640_428/uploads/2021/02/18/602efaab12112.jpeg",
+      "descripcion": "Hamburguesa doble carne doble queso tosineta papa y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 22,
+      "nombre": "HamburgerDobleES",
+      "precio": 17000,
+      "imagen": "https://www.cocinayvino.com/wp-content/uploads/2021/03/www.cocinayvino.com-araxi-burger-10-anos-de-hamburguesas-y-mucho-mas-argentina-burger-e1615839960743-1200x900.jpg",
+      "descripcion": "Hamburguesa con carne de res, carne de cerdo papas y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 23,
+      "nombre": "HamburgerPolloDoble",
+      "precio": 19000,
+      "imagen": "https://img.freepik.com/foto-gratis/hamburguesa-doble-chuleta-pollo_127425-546.jpg",
+      "descripcion": "Hamburguesa de doble pollo apanado huevo queso con papas y gaseosa",
+      "categoria": "hamburguesas"
+    },
+    {
+      "id": 24,
+      "nombre": "HamburgerPolloTriple",
+      "precio": 25000,
+      "imagen": "https://thumbs.dreamstime.com/z/hamburguesa-casera-de-pollo-con-lechuga-huevo-frito-pepino-goteo-mozzarella-en-la-orientaci%C3%B3n-vertical-tabla-despiece-copiar-162582347.jpg",
+      "descripcion": "Hamburguesa con 3 porciones de pollo apanado huevo queso tomate papas y gaseosa",
+      "categoria": "hamburguesas"
+    }
+  ],
+  "Usuarios": [
+    {
+      "userEmail": "arias.miguelm@gmail.com",
+      "userPassword": "235424624",
+      "id": 1
+    },
+    {
+      "userEmail": "leugim4.0@hotmail.com",
+      "userPassword": "123457876543",
+      "id": 2
+    },
+    {
+      "userEmail": "leugim4.0@hotmail.com",
+      "userPassword": "2345678",
+      "id": 3
+    },
+    {
+      "userEmail": "leugim4.0@hotmail.com",
+      "userPassword": "2345678",
+      "id": 4
+    },
+    {
+      "userEmail": "arias@gmail.com",
+      "userPassword": "265376485",
+      "id": 5
+    },
+    {
+      "userEmail": "arias@gmail.com",
+      "userPassword": "h12341353473",
+      "id": 6
+    },
+    {
+      "userEmail": "arias@gmail.com",
+      "userPassword": "12345678900",
+      "id": 7
+    },
+    {
+      "userEmail": "arias@gmail.com",
+      "userPassword": "86087'87r'87r",
+      "id": 8
+    },
+    {
+      "userEmail": "leugim4.0@hotmail.com",
+      "userPassword": "1234567",
+      "id": 9
+    },
+    {
+      "userEmail": "arias.miguelm@gmail.com",
+      "userPassword": "fdjjnfg",
+      "id": 10
+    }
+  ]
+>>>>>>> 36edc852361182f428622c85b35ed82651f72cbc
 }
