@@ -1,0 +1,199 @@
+{
+  "ropa": [
+    {
+      "id": 1,
+      "nombre": "Blusa",
+      "precio": 35000,
+      "imagen": "https://malumaco.vteximg.com.br/arquivos/ids/186693-640-768/Blusa-Malva-Mostaza.jpg?v=637523712553330000",
+      "descripcion": "Color Mostaza",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 2,
+      "nombre": "Blusa",
+      "precio": 30000,
+      "imagen": "https://cdnx.jumpseller.com/jacobo-en-linea/image/13716777/resize/1200/1200?1629985529",
+      "descripcion": "DE moda con cordon y manda tres cuartos",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 3,
+      "nombre": "Blusa",
+      "precio": 32000,
+      "imagen": "https://m.media-amazon.com/images/I/61FuyZBddHL._AC_UX342_.jpg",
+      "descripcion": "Cuello en V, mangas con puños",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 4,
+      "nombre": "Blusa",
+      "precio": 26000,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzEx_yEcKRirG-yKCIk_4OpHgVG5BUvDVX2A&usqp=CAU",
+      "descripcion":"manga corta, bordada",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 5,
+      "nombre": "Blusa",
+      "precio": 36000,
+      "imagen": "https://i.blogs.es/f6a5ed/hm_93013218_221946529017653_5421933690139605010_n/450_1000.jpeg",
+      "descripcion": "Blusa en rebaja",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 6,
+      "nombre": "Blusa",
+      "precio": 40000,
+      "imagen": "https://static.dafiti.com.co/p/mp-5603-9481601-1-product.jpg",
+      "descripcion": "Color Blanco MP",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 7,
+      "nombre": "Blusa",
+      "precio": 24000,
+      "imagen": "https://www.freestorecol.com/wp-content/uploads/2022/03/BLUSA-NANY-MENTA-400x533.jpg",
+      "descripcion": "Elegante y Casual",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 8,
+      "nombre": "Blusa",
+      "precio": 22000,
+      "imagen": "https://cdnx.jumpseller.com/jacobo-en-linea/image/6401036/resize/1200/1200?1620414455",
+      "descripcion": "Color Negro",
+      "categoria": "mujeres"
+    },
+    {
+      "id": 9,
+      "nombre": "Camiseta",
+      "precio": 18000,
+      "imagen": "https://static.dafiti.com.co/p/mp-6047-4550481-1-catalog-new.jpg",
+      "descripcion": "En algodon 3 colores",
+      "categoria": "hombres"
+    },
+    {
+      "id": 10,
+      "nombre": "Camiseta",
+      "precio": 12000,
+      "imagen": "https://contents.mediadecathlon.com/p1977420/k$49f41af4b7292bf26ee667cbe84c53dd/sq/8601021.jpg?format=auto&f=800x0",
+      "descripcion": "Color Azul",
+      "categoria": "hombres"
+    },
+    {
+      "id": 11,
+      "nombre": "Camiseta",
+      "precio": 12000,
+      "imagen": "https://falabella.scene7.com/is/image/FalabellaCO/7922384_1?wid=800&hei=800&qlt=70",
+      "descripcion": "Color Negro",
+      "categoria": "hombres"
+    },
+    {
+      "id": 12,
+      "nombre": "Camiseta",
+      "precio": 15000,
+      "imagen": "https://superdrycolombia.vteximg.com.br/arquivos/ids/210055-820-1000/Camiseta-Para-Hombre-Vintage-Logo-Tri-Tee-Superdry190.jpg?v=637654192444400000",
+      "descripcion": "Color Negro con logo",
+      "categoria": "hombres"
+    },
+    {
+      "id": 13,
+      "nombre": "Camiseta",
+      "precio": 14000,
+      "imagen": "https://chevignon.vtexassets.com/arquivos/ids/930989-500-auto?v=637786622506970000&width=500&height=auto&aspect=true",
+      "descripcion": "Color gris",
+      "categoria": "hombres"
+    },
+    {
+      "id": 14,
+      "nombre": "Camiseta",
+      "precio": 20000,
+      "imagen": "https://srv.latostadora.com/designall.dll/sheldon_cooper_-_cubo_rubik_derretido--i:13562310705910135623201709261;s:H_A1;w:700;h:520;k:4b5ae7f7a892b3030570196e8d0a69df.jpg",
+      "descripcion": "Color Negro",
+      "categoria": "hombres"
+    },
+    {
+      "id": 15,
+      "nombre": "Camiseta",
+      "precio": 18000,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ07a3AtZuFfX0hMXjWSH_EMLgcLovfFem531HjqzRNcm5Hps4nl0dCOCViexBEe4kYEw&usqp=CAU",
+      "descripcion": "Color Blanco y Rosas",
+      "categoria": "hombres"
+    },
+    {
+      "id": 16,
+      "nombre": "Camiseta",
+      "precio": 38000,
+      "imagen": "https://chevignon.vtexassets.com/arquivos/ids/940792-500-auto?v=637830650687930000&width=500&height=auto&aspect=true",
+      "descripcion": "Color Naranja",
+      "categoria": "hombres"
+    },
+    {
+      "id": 17,
+      "nombre": "Camiseta Niño",
+      "precio": 19000,
+      "imagen": "https://st.mngbcn.com/rcs/pics/static/T2/fotos/S20/27052511_56.jpg?ts=1644511845799&imwidth=445&imdensity=1",
+      "descripcion": "",
+      "categoria": "ninos"
+    },
+    {
+      "id": 18,
+      "nombre": "Camiseta niño",
+      "precio": 19000,
+      "imagen": "https://micco.vtexassets.com/arquivos/ids/174574-800-auto?v=637448469209070000&width=800&height=auto&aspect=true",
+      "descripcion": "Camiseta spiderman",
+      "categoria": "ninos"
+    },
+    {
+      "id": 19,
+      "nombre": "Camiseta niño",
+      "precio": 15000,
+      "imagen": "https://blog.printsome.es/wp-content/uploads/sites/3/camisetas-personalizadas-ni%C3%B1os-scoobydoo.jpg",
+      "descripcion": "Amarilla",
+      "categoria": "ninos"
+    },
+    {
+      "id": 20,
+      "nombre": "Camiseta niña",
+      "precio": 15000,
+      "imagen": "https://tottoco.vteximg.com.br/arquivos/ids/418497-470-470/Camiseta-Para-Nina-Mozary-1-Totto-Rj26015-2121-P57_1.jpg?v=637695542373830000",
+      "descripcion": "Rosada",
+      "categoria": "ninos"
+    },
+    {
+      "id": 21,
+      "nombre": "Camiseta niña",
+      "precio": 18000,
+      "imagen": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f25df5dc-ab49-4432-8406-478d10ca2fa4/sportswear-camiseta-corta-nina-BZWx0S.png",
+      "descripcion": "camiseta nike",
+      "categoria": "ninos"
+    },
+    {
+      "id": 22,
+      "nombre": "Camiseta niña",
+      "precio": 17000,
+      "imagen": "https://m.media-amazon.com/images/I/61v+Fhq4t6S._AC_UL320_.jpg",
+      "descripcion": "Color Negro",
+      "categoria": "ninos"
+    },
+    {
+      "id": 23,
+      "nombre": "Camiseta niña",
+      "precio": 19000,
+      "imagen": "https://i.linio.com/p/9779b13849c742c917b0f217f1915201-product.jpg",
+      "descripcion": "Color Blanco con arcoires",
+      "categoria": "ninos"
+    },
+    {
+      "id": 24,
+      "nombre": "Camiseta niña",
+      "precio": 25000,
+      "imagen": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/09def535d0be4957bd79ac710161895e_9366/camiseta-trifolio.jpg",
+      "descripcion": "Color Rosa Adidas",
+      "categoria": "ninos"
+    }
+  ],
+  "Usuarios": [
+    
+  ]
+}
