@@ -1,0 +1,471 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+body{
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-size: 18px;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    color:white;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size:cover;
+    
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+img{
+    margin-left: 40px;
+}
+.bar-btn{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top:100px;
+    background: #2f354f;
+    opacity: 0.5;
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5;
+}
+.nav-menu li button{
+    background-color:rgb(88, 78, 78);
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav-menu li button.active, .nav-menu li button:hover{
+    color: black;
+    transition: .3s;
+    font-size: 1rem;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+.divPantalla{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.pantalla{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 4%;
+    line-height: 2rem; 
+}
+h3{
+    padding: 8%;
+    line-height: 2rem; 
+}
+p{
+    color: hsl(229, 8%, 60%);
+    margin: 7%;
+    line-height: 1.6rem;
+    margin-top: 10px;
+}
+button{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8%;
+    border-color: none;
+    border:none;
+}
+.btnn{
+    background-color: #f7f7f7;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8%;
+    border-color: none;
+    box-shadow:0 0 12px  hsl(0, 0%, 63%);
+    border:none;
+
+}
+section{
+    margin-top: 50px;
+}
+.menubtnes{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnes{
+    border-radius: 0%;
+    margin:0 auto;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px;
+    width: 80vw;
+}
+.menubtnes hr{
+    margin:0 auto;
+    width: 80vw;
+}
+.btnes:hover{
+    border-bottom: solid 3px red;
+    width: 45%;
+}
+
+.divPantalla2{
+    margin-top: 40px;
+}
+.card{
+    max-width: 280px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 13%;
+    box-shadow:0 0 12px  hsl(232, 61%, 75%);
+    justify-content: center;
+}
+.card .img{
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.card p{
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+.card .dots {
+    padding: 0%;
+    margin: 0%;
+}
+.card a button{
+    text-decoration: none;
+    color: white;
+}
+.card button{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 25px 10px 25px;
+    border:none;
+    border-radius: 5px;
+    border-color: none;
+}
+.desplegables{
+    margin: 50px auto;
+}
+.dropdown{
+    position:relative;
+
+}
+.dropdown p{
+    margin:0;
+    position:relative;
+    max-height: 0px;
+    overflow: hidden;
+    transition:all 1;
+    left: 0px;
+    
+}
+.dropdown{
+     margin-top: 7%;
+}
+.dropdown hr{
+    width: 80vw;
+    margin-left: 10%;
+}
+.dropdown:hover{
+    position: none;
+}
+.dropdown:hover p, .dropdown:hover p.show{
+    position: none;
+    max-height: 450px;
+    margin: 0 auto;
+}
+.dropdown:hover hr{
+    position:absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition:all 0.4;
+}
+.dropdown i{
+    margin-left: 0%;
+}
+.dropdown:hover i{
+    color: red;
+    transform: scaleY(-1)
+    
+}
+.dropdown .des{
+    text-align: left;
+    margin:10px auto;
+    font-size: 0.9rem;
+}
+.dropdown #p{
+    margin: 0 20px;
+}
+.moreI{
+    margin: 60px auto;
+}
+.divContact, .divContact p{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+}
+.divContact p{
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+.divContact h3{
+    padding-top: 0%;
+}
+input{
+    width: 240px;
+    height: 2rem;
+
+}
+.contact{
+    margin: 20px auto;
+    border: none;
+    background-color: #fb5859;
+    border-radius: 6px;
+    width: 240px;
+}
+footer{
+    background-color: #242946;
+}
+.footer .logo{
+    margin: 0 auto;
+}
+.footer p a{
+    transform: none;
+    color: white;
+} 
+.linea{
+    display: none;
+}
+.moreIdesk{
+    display: none;
+}
+@media(min-width: 793px) {
+    .primera{
+        display: flex;
+        flex-direction:row-reverse;
+    }
+    .moreIdesk{
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .menubtnes{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 80%;
+    }
+    .linea{
+        display:block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .lineas{
+        display: none;
+    }
+    .divPantalla .pantalla{
+        margin: 30px;
+        width: 50vw;
+    }
+    .contenerdorSimple{
+        width: 20vw;
+    }
+    #contenedorSimple{
+        margin-top: 130px;
+        margin-left:20px;
+    }
+    #divScript #contenedorSimple{
+        margin-left: 0%;
+        margin-top: 140px;
+        padding-left: 0%;
+        width: 38vw;
+    }
+    .segunda{
+        display: flex;
+        flex-direction:row;
+    }
+    #divScript{
+        display: flex;
+        flex-direction:row;
+    }
+    .divPantalla2 .pantalla{
+        margin: 30px;
+        width: 55vw;
+    }
+    #featur1{
+        padding: 2%;
+        font-size: 2rem;
+    }
+    section{
+        text-align: center;
+    }
+    #feat{
+        text-align: center;
+        margin: 0 auto;
+        width: 40vw;
+    }
+    h1{
+        margin-left: 50px;
+    }
+    nav{
+        height: 100px;
+    }
+    .bar-btn{
+        display: none;
+    }
+    #t{
+        background-color: rgb(255, 255, 255);
+        color:black;
+    }
+    #t:hover{
+        border:solid 1px black;
+    }
+    #t1{
+        background-color: #fb5859;
+        color: white;
+    }
+    #t1:hover{
+        border: solid 1px #fb5859;
+        color: black;
+        background-color: white;
+    }
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: white;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+    .nav-menu li a{
+        font-size: 12px;;
+    }
+    .btnn:hover{
+        border: solid 1px black;
+    }
+    .btnes{
+        width: 100% ;
+    }
+    .btnn2:hover{
+        border: solid 1.5px hsl(231, 69%, 60%);
+        background-color: white;
+        color: black;
+        box-shadow:0 0 12px  hsl(232, 61%, 75%);
+    }
+    .btnes:hover{
+        color: red;
+        width: 100% ;
+    }
+    .btnes::selection{
+        border-bottom: solid 3px red;   
+        width: 100% ; 
+    } 
+
+    .cards{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .card{
+        max-width: 250px;
+        margin: 120px 30px;
+        width: 30vw;
+    }
+    .card .dots {
+        width: 250px;
+    }
+    #card1{
+        position: relative;
+        bottom:40px;
+    }
+    #card3{
+        position: relative;
+        top:40px;
+    }
+    .card:hover, .dots{
+        max-width: 280px;
+    }
+    .desplegables, .dropdown hr{
+        width: 50%;
+    }
+    div.footer{
+        display: flex;
+        flex-direction: row;
+        max-height: 60px;
+    }
+    .logo{
+        height: 60px;
+    }
+
+    div.footer p{
+        margin: 25px 20px;;
+    }
+    div.footer div img{
+        margin: 20px 30px;
+    }
+    .divContact h3{
+        padding-bottom: 1%;
+    }
+    .dropdown hr, .dropdown{
+        width: 40vw;
+        text-align: center;
+        margin: 25px auto;
+    }
+    
+}
