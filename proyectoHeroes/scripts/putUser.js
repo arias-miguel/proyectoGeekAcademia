@@ -1,3 +1,3 @@
-export const editar = async (url, id) =>{
-    await axios.put(url+id)
+export const editar = async (url,obje) =>{
+    await axios.put(url+obje.id,obje)
 }
