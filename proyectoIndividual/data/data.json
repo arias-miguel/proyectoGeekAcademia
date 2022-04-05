@@ -29,7 +29,7 @@
       "nombre": "Blusa",
       "precio": 26000,
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzEx_yEcKRirG-yKCIk_4OpHgVG5BUvDVX2A&usqp=CAU",
-      "descripcion":"manga corta, bordada",
+      "descripcion": "manga corta, bordada",
       "categoria": "mujeres"
     },
     {
@@ -93,7 +93,7 @@
       "nombre": "Camiseta",
       "precio": 15000,
       "imagen": "https://superdrycolombia.vteximg.com.br/arquivos/ids/210055-820-1000/Camiseta-Para-Hombre-Vintage-Logo-Tri-Tee-Superdry190.jpg?v=637654192444400000",
-      "descripcion": "Color Negro con logo",
+      "descripcion": "Color Blanco con logo negro",
       "categoria": "hombres"
     },
     {
@@ -133,7 +133,7 @@
       "nombre": "Camiseta Niño",
       "precio": 19000,
       "imagen": "https://st.mngbcn.com/rcs/pics/static/T2/fotos/S20/27052511_56.jpg?ts=1644511845799&imwidth=445&imdensity=1",
-      "descripcion": "",
+      "descripcion": "Camisa azul boston",
       "categoria": "ninos"
     },
     {
@@ -194,6 +194,10 @@
     }
   ],
   "Usuarios": [
-    
+    {
+      "userEmail": "arias@gmail.com",
+      "userPassword": "123'9183y54'83'",
+      "id": 1
+    }
   ]
 }
