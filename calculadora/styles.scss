@@ -1,0 +1,369 @@
+$colorbg: #3b4664;
+$colorbgbtn:#252d44;
+$colorResl: #181f32;
+$colorbtn:#eae3db;
+$colorbtnRe: #647299;
+$colorbtnigual:#d13f30;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    box-sizing: border-box;
+}
+.them1{
+    margin:0;
+    background-color: $colorbg;
+
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35vw;
+        max-width: 330px;
+    }
+    .flex{
+        display: flex;
+        margin: 20px;
+    }
+    .flex{
+        align-items: flex-end;
+        .uppercase{
+            align-items: flex-end;
+            margin-bottom: 3px;
+            margin-right: 10px;
+        }
+    }
+    .clases{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .clases div{
+        color:white;
+    }
+    #ball-toggle{
+        background-color: $colorResl;
+        max-width: 100px;
+        max-height: 15px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    #item{
+        width: 100%;
+    }
+    .circulo {
+        width: 15px;
+        height: 15px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #eb3131;
+        margin: 5px;
+        margin-left: 0px;    
+    }
+    .calculadora{
+        margin-left: 35vw;
+        max-width: 330px;
+        max-height: 160px;
+        margin-bottom: 30px;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: $colorResl;
+        color: white;
+        #resultado{
+            display: flex;
+            font-size: 3rem;
+            justify-content: end;
+        }
+    }
+    .clases div{
+        color: white;
+        justify-content: space-around;
+    }
+    .numeros{
+        margin-left: 35vw;
+        max-width: 330px;
+        margin: 10px,10px;
+        display: grid;
+        grid-template-columns: repeat(4, 75px);
+        background-color: $colorResl;
+        grid-template-rows: repeat(5, 75px);
+        padding: 15px;
+        padding-left: 15px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 100px;
+        .igual{
+            grid-column: span 2;
+        }
+        .reset{
+            grid-column: span 2;
+        }
+    }
+    .numb{
+        background-color:$colorbtn;
+        border-bottom: solid 5px #575757;
+    }
+    .del, .reset{
+        background-color: $colorbtnRe;
+        border-bottom: solid 5px #181f32;
+        color: white;
+    }
+    .igual{
+        background-color:$colorbtnigual;
+        color: white;
+    }
+    button{
+        cursor:pointer;
+        margin:5px;
+        padding: 0;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: black;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    }
+}
+
+.them2{
+    margin:0;
+    background-color: #e6e6e6;
+
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35vw;
+        max-width: 330px;
+        color: black;
+    }
+    .text{
+        color: black;
+    }
+    .flex{
+        display: flex;
+        margin: 20px;
+    }
+    .flex{
+        align-items: flex-end;
+        .uppercase{
+            align-items: flex-end;
+            margin-bottom: 3px;
+            margin-right: 10px;
+            color: black;
+        }
+    }
+    .clases{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        color: black;
+    }
+    .clases div{
+        color: black;
+        justify-content: space-around;
+    }
+    #item{
+        width: 100%;
+    }
+    #ball-toggle{
+        background-color: #d3cdcd;
+        max-width: 100px;
+        max-height: 15px;
+        border-radius: 15px;
+    }
+    .circulo {
+        width: 15px;
+        height: 15px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #eb3131;
+        margin: 5px;
+        margin-left: 25px;    
+    }
+    .calculadora{
+        margin-left: 35vw;
+        max-width: 330px;
+        max-height: 160px;
+        margin-bottom: 30px;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: #eeeeee;
+        color: black;
+        #resultado{
+            display: flex;
+            font-size: 3rem;
+            justify-content: end;
+            color: black;
+        }
+    }
+    .numeros{
+        margin-left: 35vw;
+        max-width: 330px;
+        margin: 10px,10px;
+        display: grid;
+        grid-template-columns: repeat(4, 75px);
+        background-color: #d3cdcd;
+        grid-template-rows: repeat(5, 75px);
+        padding: 15px;
+        padding-left: 15px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 100px;
+        .igual{
+            grid-column: span 2;
+        }
+        .reset{
+            grid-column: span 2;
+        }
+    }
+    .numb{
+        background-color:$colorbtn;
+        border-bottom: solid 5px #575757;
+    }
+    .del, .reset{
+        background-color: #378285;
+        border-bottom: solid 5px #1a5f66;
+        color: white;
+    }
+    .igual{
+        background-color: #c85401;
+        border-bottom: solid 5px #873900;
+        color: white;
+    }
+    button{
+        cursor:pointer;
+        margin:5px;
+        padding: 0;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: black;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    }
+}
+
+.them3{
+    margin:0;
+    background-color: #17062a;
+
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 35vw;
+        max-width: 330px;
+    }
+    .flex{
+        display: flex;
+        margin: 20px;
+    }
+    .flex{
+        align-items: flex-end;
+        color: #ffe238;
+        .uppercase{
+            align-items: flex-end;
+            margin-bottom: 3px;
+            margin-right: 10px;
+            color: #ffe238;
+        }
+    }
+    .text{
+        color: #ffee58;
+    }
+    .uppercase{
+        color: #ffee58;
+    }
+    .clases {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        color: #ffee58;
+    }
+    .clases div{
+        color: #ffee58;
+        justify-content: space-around;
+    }
+    #item{
+        width: 100%;
+    }
+    #ball-toggle{
+        background-color: #1e0836;
+        max-width: 100px;
+        max-height: 15px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    .circulo {
+        width: 15px;
+        height: 15px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #01ddd0;
+        margin: 5px;
+        margin-left: 50px;    
+    }
+    .calculadora{
+        margin-left: 35vw;
+        max-width: 330px;
+        max-height: 160px;
+        margin-bottom: 30px;
+        padding: 30px;
+        border-radius: 5px;
+        background-color: #1e0836;
+        color: #ffee58;
+        #resultado{
+            display: flex;
+            font-size: 3rem;
+            justify-content: end;
+            color: #ffee58;
+        }
+    }
+    .numeros{
+        margin-left: 35vw;
+        max-width: 330px;
+        margin: 10px,10px;
+        display: grid;
+        grid-template-columns: repeat(4, 75px);
+        background-color: #1e0836;
+        grid-template-rows: repeat(5, 75px);
+        padding: 15px;
+        padding-left: 15px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 100px;
+        .igual{
+            grid-column: span 2;
+        }
+        .reset{
+            grid-column: span 2;
+        }
+    }
+    .numb{
+        background-color: #1e0836;
+        border-bottom: solid 5px #575757;
+        color: #ffee58;;
+    }
+    .del, .reset{
+        background-color: #56077c;
+        border-bottom: solid 5px #b61be8;
+        color: white;
+    }
+    .igual{
+        background-color: #01ddd0;
+        color: black;
+    }
+    button{
+        cursor:pointer;
+        margin:5px;
+        padding: 0;
+        border-radius: 8px;
+        font-size: 1rem;
+        color: black;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4d3ffb5223.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="./styles.css">
+    <title>Reto2Calculadora</title>
+</head>
+<body class="">
+    <header>
+      <div class="contenedor">
+        <h1 class="text">calc</h1>
+        <div class="flex d">
+            <div class="uppercase">THEME</div>
+            <div id="toggle" class="cursor-pointer">
+                <div class="flex clases">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                </div>
+                <button id="item"><div id="ball-toggle">
+                    <div class="circulo"></div>
+                </div></button>
+            </div>
+        </div>
+    </div>   
+    </header>
+    <main>
+        <div class="calculadora">
+            <div class="result">
+                <span id="resultado">399,981</span>
+            </div>
+        </div>
+        <div class="numeros">
+            <button class="numb numbN numb-7">7</button>
+            <button class="numb numbN numb-8">8</button>
+            <button class="numb numbN numb-9">9</button>
+            <button class="numb del" id="borrar">DEL</button>
+            <button class="numb numbN numb-4">4</button>
+            <button class="numb numbN numb-5">5</button>
+            <button class="numb numbN numb-6">6</button>
+            <button class="numb operador">+</button>
+            <button class="numb numbN numb-1">1</button>
+            <button class="numb numbN numb-2">2</button>
+            <button class="numb numbN numb-3">3</button>      
+            <button class="numb operador">-</button>
+            <button class="numb numbN">.</button>
+            <button class="numb numbN numb-0">0</button>
+            <button class="numb operador">/</button>
+            <button class="numb operador">x</button>
+            <button class="numb reset" id="reset">RESET</button>
+            <button class="numb igual" id="igual">=</button>
+          </div>
+    </main>
+    <script src="./scripts/calculadora.js"></script>
+    <script src="./scripts/temas.js"></script>
+</body>
+</html>
